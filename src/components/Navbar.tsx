@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Instagram, MessageCircle, Menu, X } from "lucide-react";
+import {FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {LuMenu, LuX} from "react-icons/lu";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
@@ -80,7 +81,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={iconClass}
             >
-              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+              {isMenuOpen ? <LuX size={28} /> : <LuMenu size={28} />}
             </button>
           </div>
 
@@ -101,7 +102,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className={`${iconClass} hover:text-[#D9A977] transition-colors`}
             >
-              <MessageCircle size={24} />
+              <FaWhatsapp size={24} />
             </a>
             <a
               href="https://instagram.com/lyanamasso"
@@ -109,7 +110,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className={`${iconClass} hover:text-[#D9A977] transition-colors`}
             >
-              <Instagram size={24} />
+              <FaInstagram size={24} />
             </a>
           </div>
         </div>
