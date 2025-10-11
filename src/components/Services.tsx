@@ -2,23 +2,23 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    title: 'Massagem Relaxante',
-    description: 'Técnica suave que promove relaxamento e bem-estar.',
+    title: 'Massagem Relaxante Terapêutica',
+    description: 'Uma massagem profunda e suave, ideal para aliviar o estresse do dia a dia, reduzir a ansiedade e promover um relaxamento completo da mente e do corpo. Sinta a tranquilidade em cada toque.',
     image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-massagem-relaxante.jpg?auto=compress&cs=tinysrgb&w=800',
   },
   {
-    title: 'Drenagem Linfática',
-    description: 'Auxilia na eliminação de toxinas e melhora da circulação.',
+    title: 'Drenagem Linfática Manual',
+    description: 'Técnica especializada que estimula o sistema linfático, ajudando a eliminar toxinas, reduzir o inchaço e melhorar a circulação. Ideal para quem busca bem-estar e um corpo mais leve e saudável.',
     image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-drenagem-linfatica.jpg?auto=compress&cs=tinysrgb&w=800',
   },
   {
-    title: 'Termoterapia',
-    description: 'Uso de calor para aliviar tensões e revitalizar o corpo.',
+    title: 'Termoterapia com Pedras Quentes',
+    description: 'Sinta o poder do calor terapêutico. Esta técnica utiliza pedras aquecidas para relaxar a musculatura, aliviar dores crônicas e proporcionar uma sensação profunda de conforto e revitalização.',
     image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-termoterapia.jpg?auto=compress&cs=tinysrgb&w=800',
   },
   {
-    title: 'Escalda Pés',
-    description: ' ',
+    title: 'Escalda-pés Revitalizante',
+    description: 'Um ritual de cuidado que começa pelos pés. Mergulhe em uma combinação de água morna, sais e ervas aromáticas para aliviar o cansaço, melhorar a circulação e preparar o corpo para um relaxamento profundo.',
     image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-escalda-pes.jpg?auto=compress&cs=tinysrgb&w=800'
   }
 ];

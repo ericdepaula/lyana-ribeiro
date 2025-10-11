@@ -88,7 +88,7 @@ const Navbar = () => {
           {/* Centro: Nome (visível em todas as telas) */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <h1
-              className={`text-2xl font-serif ${textClass} whitespace-nowrap`}
+              className={`text-4xl font-signature ${textClass} whitespace-nowrap`}
             >
               Lyana Ribeiro
             </h1>
