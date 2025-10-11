@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Instagram, MessageCircle, MapPin } from 'lucide-react';
+import { FaInstagram, FaWhatsapp} from 'react-icons/fa';
+import { LuMapPin} from 'react-icons/lu';
 
 const Contact = () => {
   return (
@@ -26,7 +27,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            <Instagram size={48} className="text-[#D9A977]" />
+            <FaInstagram size={48} className="text-[#D9A977]" />
             <h3 className="text-xl font-serif text-[#3B2E2A]">Instagram</h3>
             <p className="text-[#3B2E2A]">@lyanamasso</p>
           </motion.a>
@@ -41,22 +42,25 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            <MessageCircle size={48} className="text-[#D9A977]" />
+            <FaWhatsapp size={48} className="text-[#D9A977]" />
             <h3 className="text-xl font-serif text-[#3B2E2A]">WhatsApp</h3>
             <p className="text-[#3B2E2A]">Agende seu horário</p>
           </motion.a>
 
-          <motion.div
+          <motion.a
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
+            href="https://maps.app.goo.gl/ZeegX4BPXn2NMHFN8"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 bg-white rounded-2xl shadow-lg"
           >
-            <MapPin size={48} className="text-[#D9A977]" />
+            <LuMapPin size={48} className="text-[#D9A977]" />
             <h3 className="text-xl font-serif text-[#3B2E2A]">Localização</h3>
             <p className="text-[#3B2E2A]">Itanhaém, SP</p>
-          </motion.div>
+          </motion.a>
         </div>
 
         <motion.div
