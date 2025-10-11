@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { LuStar } from "react-icons/lu";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
@@ -50,8 +50,8 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="bg-white py-20 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-white py-20">
+      <div className="max-w-full mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +88,7 @@ const Testimonials = () => {
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-[#FDF8F4] p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
+              <div className="bg-[#FDF8F4] p-5 mb-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 duration-300 h-full min-h-[400px]">
                 <div className="flex flex-col items-center text-center">
                   <img
                     src={testimonial.image}
@@ -102,7 +102,7 @@ const Testimonials = () => {
 
                   <div className="flex gap-1 mb-4">
                     {Array.from({ length: testimonial.rating }).map((_, i) => (
-                      <Star
+                      <LuStar
                         key={i}
                         size={20}
                         fill="#D9A977"
