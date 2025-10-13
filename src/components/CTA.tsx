@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <section className="bg-[#00695C] py-16 px-4">
+    <section className="bg-gradient-to-r from-[#25D366] to-[#00695C] py-16 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col items-center justify-center text-center">
           <motion.h2
@@ -33,9 +33,9 @@ const CTA = () => {
             href="https://wa.me/5513982009366"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#FBC02D] hover:bg-[#F9A825] text-[#3B2E2A] px-8 py-4 rounded-full shadow-lg transition-all duration-300 text-xl font-medium"
+            className="bg-[#25D366] hover:bg-[#00695C] text-[#FDF8F4] hover:text-[#FDF8F4] px-8 py-4 rounded-full shadow-[0px_0px_20px_10px_rgba(37,_211,_102,_0.35)] hover:shadow-[0px_0px_20px_10px_rgba(0,_105,_92,_0.35)] transition-all duration-300 text-xl font-medium"
           >
-            Agende seu momento de paz
+            Agende seu momento
           </motion.a>
         </div>
       </div>
