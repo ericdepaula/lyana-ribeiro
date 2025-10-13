@@ -1,13 +1,25 @@
 import { motion } from "framer-motion";
 import { LuMouse } from "react-icons/lu";
+import { useEffect, useRef } from "react";
 
 const Hero = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(error => {
+        // Autoplay was prevented.
+        console.error("Autoplay prevented: ", error);
+      });
+    }
+  }, []);
+
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 bg-black/30 z-10" />
 
       <video
-        autoPlay
+        ref={videoRef}
         loop
         muted
         playsInline
