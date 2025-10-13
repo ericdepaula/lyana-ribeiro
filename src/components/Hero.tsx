@@ -24,7 +24,7 @@ const Hero = () => {
         loop
         muted
         playsInline
-        poster="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        poster="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/hero-image-fallback.jpg?auto=compress&cs=tinysrgb&w=800"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
