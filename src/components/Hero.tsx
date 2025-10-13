@@ -51,6 +51,7 @@ const Hero = () => {
         ref={videoRef1}
         muted
         playsInline
+        poster="https://via.placeholder.com/1920x1080"
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
           activeVideo === 1 ? "opacity-100" : "opacity-0"
         }`}
@@ -64,6 +65,7 @@ const Hero = () => {
         ref={videoRef2}
         muted
         playsInline
+        poster="https://via.placeholder.com/1920x1080"
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
           activeVideo === 2 ? "opacity-100" : "opacity-0"
         }`}
