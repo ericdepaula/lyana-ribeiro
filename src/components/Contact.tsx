@@ -44,7 +44,7 @@ const Contact = () => {
           >
             <FaWhatsapp size={48} className="text-[#D9A977]" />
             <h3 className="text-xl font-serif text-[#3B2E2A]">WhatsApp</h3>
-            <p className="text-[#3B2E2A]">Agende seu horário</p>
+            <p className="text-[#3B2E2A]">Entrar em contato</p>
           </motion.a>
 
           <motion.a
