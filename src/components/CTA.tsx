@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const CTA = () => {
   return (
-    <section className="bg-gradient-to-r from-[#25D366] to-[#00695C] py-16 px-4">
+    <section className="bg-[#E2C4A6] py-16 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col items-center justify-center text-center">
           <motion.h2
@@ -10,7 +10,7 @@ const CTA = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-3xl md:text-5xl font-serif text-[#FDF8F4] mb-4"
+            className="text-3xl md:text-5xl font-serif text-[#3B2E2A] mb-4"
           >
             Permita-se uma pausa para se reconectar com você mesma.
           </motion.h2>
@@ -20,7 +20,7 @@ const CTA = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg text-[#FDF8F4] mb-8"
+            className="text-lg text-[#3B2E2A] mb-8"
           >
             Sua jornada de bem-estar começa com um toque.
           </motion.p>
