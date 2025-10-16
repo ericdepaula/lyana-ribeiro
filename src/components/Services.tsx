@@ -1,26 +1,41 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const services = [
   {
-    title: 'Massagem Relaxante Terapêutica',
-    description: 'Uma massagem profunda e suave, ideal para aliviar o estresse do dia a dia, reduzir a ansiedade e promover um relaxamento completo da mente e do corpo. Sinta a tranquilidade em cada toque.',
-    image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-massagem-relaxante.jpg?auto=compress&cs=tinysrgb&w=800',
+    title: "Massagem Relaxante Terapêutica",
+    description:
+      "Permita-se uma pausa merecida. Com toques suaves e profundos, esta massagem alivia o estresse, reduz a ansiedade e promove um relaxamento completo do corpo e da mente. Uma experiência de cuidado e bem-estar.",
+    image:
+      "https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-massagem-relaxante.webp",
   },
   {
-    title: 'Drenagem Linfática Manual',
-    description: 'Técnica especializada que estimula o sistema linfático, ajudando a eliminar toxinas, reduzir o inchaço e melhorar a circulação. Ideal para quem busca bem-estar e um corpo mais leve e saudável.',
-    image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-drenagem-linfatica.jpg?auto=compress&cs=tinysrgb&w=800',
+    title: "Drenagem Linfática Manual",
+    description:
+      "Leveza que se sente no corpo e na alma. Essa técnica delicada estimula o sistema linfático, ajudando a eliminar toxinas, reduzir o inchaço e melhorar a circulação. Ideal para quem busca equilíbrio e bem-estar.",
+    image:
+      "https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-drenagem-linfatica.webp",
   },
   {
-    title: 'Termoterapia com Pedras Quentes',
-    description: 'Sinta o poder do calor terapêutico. Esta técnica utiliza pedras aquecidas para relaxar a musculatura, aliviar dores crônicas e proporcionar uma sensação profunda de conforto e revitalização.',
-    image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-termoterapia.jpg?auto=compress&cs=tinysrgb&w=800',
+    title: "Termoterapia com Pedras Quentes",
+    description:
+      "Aqueça seu corpo e acalme sua mente. As pedras aquecidas são colocadas em pontos estratégicos para aliviar tensões, dores musculares e promover uma sensação profunda de conforto e renovação.",
+    image:
+      "https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-termoterapia.webp",
   },
   {
-    title: 'Escalda-pés Revitalizante',
-    description: 'Um ritual de cuidado que começa pelos pés. Mergulhe em uma combinação de água morna, sais e ervas aromáticas para aliviar o cansaço, melhorar a circulação e preparar o corpo para um relaxamento profundo.',
-    image: 'https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-escalda-pes.jpg?auto=compress&cs=tinysrgb&w=800'
-  }
+    title: "Escalda-pés Revitalizante",
+    description:
+      "Um carinho para os seus pés e para o seu dia. Essa técnica combina água morna, sais e ervas aromáticas para aliviar o cansaço, ativar a circulação e proporcionar um momento de relaxamento genuíno.",
+    image:
+      "https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-escalda-pes.webp",
+  },
+  {
+    title: "Ventosaterapia",
+    description:
+      "Uma técnica milenar para renovar suas energias. A ventosaterapia ajuda a aliviar dores musculares, melhorar a circulação sanguínea e liberar tensões acumuladas, promovendo equilíbrio e bem-estar.",
+    image:
+      "https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/service-ventosa.webp",
+  },
 ];
 
 const Services = () => {
@@ -46,10 +61,10 @@ const Services = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${
-                index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                index % 2 === 1 ? "md:flex-row-reverse" : ""
               }`}
             >
-              <div className={index % 2 === 1 ? 'md:order-2' : ''}>
+              <div className={index % 2 === 1 ? "md:order-2" : ""}>
                 <img
                   src={service.image}
                   alt={service.title}
@@ -57,7 +72,7 @@ const Services = () => {
                 />
               </div>
 
-              <div className={index % 2 === 1 ? 'md:order-1' : ''}>
+              <div className={index % 2 === 1 ? "md:order-1" : ""}>
                 <h3 className="text-3xl font-serif text-[#3B2E2A] mb-4">
                   {service.title}
                 </h3>
