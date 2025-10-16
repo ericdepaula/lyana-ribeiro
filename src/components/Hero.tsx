@@ -24,11 +24,11 @@ const Hero = () => {
         loop
         muted
         playsInline
-        poster="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/hero-image-fallback.jpg?auto=compress&cs=tinysrgb&w=800"
+        poster="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/hero-image-fallback.webp"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/hero-video.mp4"
+          src="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/Hero-Video.webm"
           type="video/mp4"
         />
       </video>

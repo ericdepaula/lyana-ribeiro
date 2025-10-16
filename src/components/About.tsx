@@ -13,7 +13,7 @@ const About = () => {
             className="flex justify-center"
           >
             <img
-              src="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/lyana-about.svg?auto=compress&cs=tinysrgb&w=800"
+              src="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/lyana-about.webp"
               alt="Lyana Ribeiro - Massoterapeuta"
               className="rounded-2xl shadow-lg object-full w-full h-[400px] md:h-[500px]"
             />
