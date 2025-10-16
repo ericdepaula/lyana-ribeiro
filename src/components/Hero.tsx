@@ -29,7 +29,7 @@ const Hero = () => {
       >
         <source
           src="https://pub-0fb1b63b4b4b406488ed6d1e399e17cf.r2.dev/Hero-Video.webm"
-          type="video/mp4"
+          type="video/webm"
         />
       </video>
 
